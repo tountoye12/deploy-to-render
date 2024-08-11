@@ -1,0 +1,5 @@
+venv/
+.venv/
+employeeproject/docker-compose.yml
+employeeproject/postgres_db_setup.sh
+.env
