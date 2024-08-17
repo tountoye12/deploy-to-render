@@ -29,5 +29,9 @@ urlpatterns = [
     path('groups/add', views.add_group),
     path('groups/get/<int:pk>/', views.get_group),
     path('groups/delete/<int:pk>/', views.delete_group),
+    #path("", include(static_urlpatterns))
+
+
+    #path('api-docs/', include('django_api_docs.urls')),
     
 ]
