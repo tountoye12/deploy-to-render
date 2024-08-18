@@ -19,4 +19,4 @@ class TestModels(TestCase):
     
         self.assertEquals(str(employee), "Test")
 
-        self.assertEquals(isinstance(employee), Employee)
+        self.assertTrue(isinstance(employee, Employee))
