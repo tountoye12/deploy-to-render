@@ -20,6 +20,9 @@ class Employee(models.Model):
 
   employee_groudId = models.ForeignKey(EmployeeGroup, on_delete= models.CASCADE)
 
+  def __str__(self) -> str:
+    return self.name
+
 
 
 
